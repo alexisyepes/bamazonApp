@@ -25,11 +25,11 @@ function startingQuestions() {
                 'View Low Inventory',
                 'Add to Inventory',
                 'Add New Product',
-                'Exit'
+                'Exit' 
             ]
         }
     ]).then(function (answer) {
-        console.log('----- ' + answer.choice.toUpperCase() + ' -----')
+        console.log('-------- ' + answer.choice.toUpperCase() + ' --------')
 
         switch (answer.choice) {
             case 'View Products for sale':
