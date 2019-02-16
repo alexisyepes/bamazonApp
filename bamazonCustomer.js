@@ -129,7 +129,7 @@ function promptAgain() {
 		if (answers.orderAgain) {
 			showAllProducts();
 		} else {
-			console.log('Thanks for shopping with us. yCome back soon');
+			console.log('Thanks for shopping with us. Come back soon');
 			connection.end();
 		}
 	});
